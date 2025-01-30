@@ -53,20 +53,12 @@ O projeto segue o padrão de design DDD e está organizado da seguinte forma:
 
 4. **Inicie a aplicação**:
     - Utilize o IIS, terminal ou docker para executar a aplicação
-    - Acesse a URL: https://localhost:5001/swagger/index.html
+    - Acesse a URL: https://localhost:{PORT}/swagger/index.html
 
 ### Testes
 
-Para executar os testes unitários, utilize o seguinte comando:
+Para executar os testes unitários, utilize o seguinte comando: dotnet test
 
 ## Documentação da API
 
-A documentação da API pode ser acessada através do Swagger. Após iniciar a aplicação, acesse a URL:
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+A documentação da API pode ser acessada através do Swagger. Após iniciar a aplicação, acesse a URL: https://localhost:{PORT}/swagger/index.html
