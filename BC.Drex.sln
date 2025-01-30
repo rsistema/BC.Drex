@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BC.Drex.API", "BC.Drex.API\BC.Drex.API.csproj", "{B7676F87-6C62-4A6D-8CC8-E77C90A4D5EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BC.Drex.Domain", "BC.Drex.Domain\BC.Drex.Domain.csproj", "{835AC230-EF42-4393-AE6F-3CA52F01E749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BC.Drex.Infrastructure", "BC.Drex.Infrastructure\BC.Drex.Infrastructure.csproj", "{147780FC-230F-48DD-9034-9461D810399D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BC.Drex.Application", "BC.Drex.Application\BC.Drex.Application.csproj", "{7C510D7C-07BE-4E6E-BA5A-78B6A464A3A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BC.Drex.API.Test", "BC.Drex.API.Test\BC.Drex.API.Test.csproj", "{C4307820-12DB-4EC2-9A0D-F92B39DA85B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{769D65A7-1AA7-4598-B9DC-229485269B8A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7676F87-6C62-4A6D-8CC8-E77C90A4D5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7676F87-6C62-4A6D-8CC8-E77C90A4D5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7676F87-6C62-4A6D-8CC8-E77C90A4D5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7676F87-6C62-4A6D-8CC8-E77C90A4D5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835AC230-EF42-4393-AE6F-3CA52F01E749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835AC230-EF42-4393-AE6F-3CA52F01E749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835AC230-EF42-4393-AE6F-3CA52F01E749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835AC230-EF42-4393-AE6F-3CA52F01E749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147780FC-230F-48DD-9034-9461D810399D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147780FC-230F-48DD-9034-9461D810399D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147780FC-230F-48DD-9034-9461D810399D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147780FC-230F-48DD-9034-9461D810399D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C510D7C-07BE-4E6E-BA5A-78B6A464A3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C510D7C-07BE-4E6E-BA5A-78B6A464A3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C510D7C-07BE-4E6E-BA5A-78B6A464A3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C510D7C-07BE-4E6E-BA5A-78B6A464A3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4307820-12DB-4EC2-9A0D-F92B39DA85B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4307820-12DB-4EC2-9A0D-F92B39DA85B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4307820-12DB-4EC2-9A0D-F92B39DA85B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4307820-12DB-4EC2-9A0D-F92B39DA85B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2247842-4C81-4CFE-9A3F-A6FF8F0BBAF5}
+	EndGlobalSection
+EndGlobal

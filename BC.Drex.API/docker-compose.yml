@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  bc_drex_db:
+    image: postgres:15.3-alpine
+    container_name: bc_drex_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: sua_senha
+      POSTGRES_DB: my_database
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
